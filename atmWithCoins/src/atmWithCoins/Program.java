@@ -20,6 +20,20 @@ public class Program {
 		n50 = N / 50;
 		N %= 50;
 		// ---------------- >
+		n20 = N / 20;
+		N %= 20;
+		// ---------------- >
+		n10 = N / 10;
+		N %= 10;
+		// ---------------- >
+		n5 = N / 5;
+		N %= 5;
+		// ---------------- >
+		n2 = N / 2;
+		N %= 2;
+		// ---------------- >
+		n1 = N / 1;
+		N %= 1;
 
 		System.out.printf("Updated N: %.2f%n", N);
 		M = N * 100;
@@ -34,7 +48,7 @@ public class Program {
 		System.out.println((int) n2 + " nota(s) de R$ 2.00");
 		// -------------------------------- >
 		System.out.println("MOEDAS:");
-		System.out.println("" + n1 + " moeda(s) de R$ 1.00");
+		System.out.println((int) n1 + " moeda(s) de R$ 1.00");
 		// -------------------------------- >
 		System.out.println((int) c50 + " moeda(s) de R$ 0.50");
 		System.out.println((int) c25 + " moeda(s) de R$ 0.25");
